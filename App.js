@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 import { Keyboard, ScrollView, StyleSheet, Text, View, ImageBackground } from 'react-native';
 import TodoList from './ToDoList';
 
-const img= require('./assets/images/chat.jpg');
+const img= require('./assets/images/kermit-dance.gif');
 
 
 export default function App() {
