@@ -60,6 +60,7 @@ const styles = StyleSheet.create({
   itemContainer: {
     flexDirection: "row",
     justifyContent: "space-between",
+    backgroundColor: "white",
     padding: 16,
     marginTop: 16,
     borderColor: "#bbb",

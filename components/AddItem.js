@@ -42,7 +42,8 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderStyle: "solid",
         borderRadius: 5,
-        fontSize: 15
+        fontSize: 15,
+        backgroundColor:"white"
     },
     addButton: {
         backgroundColor: "black",
