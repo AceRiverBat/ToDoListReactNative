@@ -1,10 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Component } from 'react';
+import React, {useState} from 'react';
+import { Keyboard, ScrollView, StyleSheet, Text, View } from 'react-native';
+import TodoList from './ToDoList';
+
 
 export default function App() {
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text style={styles.heading}>TODO LIST</Text>
+      <TodoList/>
       <StatusBar style="auto" />
     </View>
   );
@@ -17,4 +23,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  heading:{
+    color: "black",
+    fontWeight: "bold",
+    fontSize: 25,
+    marginTop: 16
+  }
 });
